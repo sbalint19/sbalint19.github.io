@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kapcsolat</title>
+	<link rel="stylesheet" type="text/css" href="css/kapcsolat.css">
+</head>
+<body>
+	<h1>Kapcsolat</h1>
+		<div class="container">
+			<form id="container" method="post" action="contact-form-handle.php">
+				<label>Keresztnév</label>
+				<input type="text" id="fname" placeholder="Keresztneve...">
+				<label>Vezetéknév</label>
+				<input type="text" id="Lname" placeholder="Vezetékneve...">
+				<br>
+				<label>Email cím*</label>
+				<input type="email" name="email" placeholder="Az Ön email címe..." required><br>
+				<label>Tárgy</label>
+				<textarea id="tárgy" placeholder="Üzenj valamit..." style="height: 200px"></textarea>
+				<input type="submit" value="Küldés">
+			</form>
+		</div>
+</body>
+</html>
